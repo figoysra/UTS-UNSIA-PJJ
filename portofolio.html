@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/c3c4198b26.js" crossorigin="anonymous"></script>
+    <title>Portofolio</title>
+    <style>
+        body{
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+            height: 100vh;
+            font-family: Tahoma;
+        }
+        .left{
+            width: 20%;
+            padding: 20px 50px 20px 50px;
+            background-color: #146C94;
+            color: white;
+        }
+        .image{
+            display: flex;
+            justify-content: center;
+            height: 30%;
+        }
+        .name {
+            margin-top: 30px;
+        }
+        .name h1{
+            margin-top: 5px;
+            margin-bottom: 0px;
+        }
+        .name h2{
+            margin-top: 10px;
+        }
+        .biograph ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 18px;
+        }
+        .biograph ul li{
+            margin: 10px 0px 0px 10px;
+        }
+        .biograph ul li i{
+            padding-right: 7px;
+        }
+        .skill {
+            margin-top: 50px;
+        }
+        .skill li{
+            font-size: 18px;
+        }
+
+        .right{
+            width: 70%;
+            margin: 50px;
+        }
+
+        .right .title{
+            padding: 15px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            background-color: lightblue;
+            font-size: 23px;
+        }
+        .image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-frame{
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-frame img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+        .right .body{
+            display: flex;
+            margin-top: 30px;
+        }
+
+        .right .body i{
+            font-size: 50px;
+        }
+
+        .right .body .sub-body{
+            margin-left: 40px;
+        }
+        .right .body .sub-body h3 {
+            margin: 0px;
+        }
+        .right .body .sub-body p{
+            margin: 0px ;
+        }
+
+        .right .body .sub-body ul li{
+            font-size: 16px;
+        }
+
+        .organization{
+            height: 45%;
+        }
+        .certificate {
+            margin-top: 30px;
+        }
+
+        .skill ul li{
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="left">
+        <div class="image">
+            <div class="image-frame">
+                <img src="./assets/DSC_0102.JPG" alt="" srcset="">
+            </div>
+        </div>
+        <div class="name">
+            <h1>Figo Yusra Hanuratama</h1>
+            <h2>IT204</h2>
+        </div>
+        <div class="biograph">
+            <ul>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    figoyusra.133@gmail.com
+                </li>
+                <li>
+                    <i class="fa-solid fa-user"></i>
+                    nomor whatsapp
+                </li>
+                <li>
+                    <i class="fa-solid fa-house"></i>
+                    alamat website
+                </li>
+            </ul>
+        </div>
+        <div class="skill">
+            <h2>Skill Siswa</h2>
+            <ul>
+                <li>HTML CSS</li>
+                <li>Javascript</li>
+                <li>Postgresql</li>
+            </ul>
+        </div>
+    </div>
+    <div class="right">
+        <div class="organization">
+            <div class="title">
+                ORGANISASI YANG PERNAH DIIKUTI
+            </div>
+            <div class="body">
+                <i class="fa-solid fa-plane-up"></i>
+                <div class="sub-body">
+                    <h3>English Debate Club</h3>
+                    <p>Agustus 2016 - Agustus 2019</p>
+                    <ul>
+                        <li>Practice Debate</li>
+                        <li>Public Speaking Exercises</li>
+                        <li>Debates with Other Schools</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="education">
+            <div class="title">
+                PENDIDIKAN
+            </div>
+            <div class="body">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div class="sub-body">
+                    <h3>S1 PJJ TEKNIK INFORMATIKA</h3>
+                    <p>UNIVERSITAS SIBER ASIA</p>
+                    <p>Tahun: 2026</p>
+                    <ul>
+                        <li>Cum Laude</li>
+                        <li>3.7</li>
+                        <li>Blockchain Technology and Applications</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="certificate">
+            <div class="title">
+                SERTIFIKAT KEAHLIAN
+            </div>
+            <div class="body">
+                <i class="fa-solid fa-award"></i>
+                <div class="sub-body">
+                    <h3>Nest Js Zero to Hero: UDEMY</h3>
+                    <p>2022</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
